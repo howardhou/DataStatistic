@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/DataStatistic.svg?style=flat)](http://cocoapods.org/pods/DataStatistic)
 [![Platform](https://img.shields.io/cocoapods/p/DataStatistic.svg?style=flat)](http://cocoapods.org/pods/DataStatistic)
 
+友盟统计 - UMMobClick.framework - v4.1.11，无IDFA，支持HTTPS
+
+Talking Data - TalkingDataAnalytics - 有IDFA，支持HTTPS，支持IPV6
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
