@@ -24,25 +24,22 @@
     
 #ifdef DEBUG
     config.channelId = @"DEBUG";
-    
-    [MobClick startWithConfigure: config];
+    config.ePolicy = REALTIME;
     [MobClick setAppVersion: @"Debug"];
-    [MobClick setCrashReportEnabled:YES];
     [MobClick setLogEnabled:YES];
-    
+
 #elif AdHoc
     config.channelId = @"AdHoc";
-    [MobClick startWithConfigure: config];
     [MobClick setAppVersion: @"AdHoc"];
-    [MobClick setCrashReportEnabled:YES];
     
 #else
     config.channelId = @"AppStore";
-    [MobClick startWithConfigure: config];
     [MobClick setAppVersion: [self getAppVersion]];
-    [MobClick setCrashReportEnabled:YES];
-    
 #endif
+    
+    [MobClick setCrashReportEnabled:YES];
+    [MobClick startWithConfigure: config];
+
 }
 
 +(NSString *) getAppVersion {
