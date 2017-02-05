@@ -1,0 +1,6 @@
+framework module DataStatistic {
+  umbrella header "DataStatistic-umbrella.h"
+
+  export *
+  module * { export * }
+}

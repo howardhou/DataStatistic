@@ -1,0 +1,6 @@
+framework module Pods_DataStatistic_Tests {
+  umbrella header "Pods-DataStatistic_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

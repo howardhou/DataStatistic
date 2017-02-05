@@ -1,0 +1,32 @@
+{
+  "name": "DataStatistic",
+  "version": "0.1.0",
+  "summary": "A short description of DataStatistic.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/howardhou/DataStatistic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "howardhou": "houdongdong@rongzi.com"
+  },
+  "source": {
+    "git": "https://github.com/howardhou/DataStatistic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DataStatistic/Classes/**/*",
+  "ios": {
+    "vendored_libraries": "DataStatistic/Frameworks/libTalkingData.a",
+    "vendored_frameworks": "DataStatistic/Frameworks/UMMobClick.framework"
+  },
+  "public_header_files": "DataStatistic/Classes/**/*.h",
+  "frameworks": "CoreTelephony",
+  "libraries": [
+    "z",
+    "sqlite3"
+  ]
+}
