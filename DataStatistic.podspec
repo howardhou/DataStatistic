@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DataStatistic'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'User Behavior Statistic 用户行为统计'
 
 # This description is used to generate tags and improve search results.

@@ -28,7 +28,7 @@
     [MobClick setAppVersion: @"Debug"];
     [MobClick setLogEnabled:YES];
 
-#elif AdHoc
+#elif ADHOC
     config.channelId = @"AdHoc";
     [MobClick setAppVersion: @"AdHoc"];
     
@@ -56,7 +56,7 @@
 #ifdef DEBUG
     [TalkingData sessionStarted:talkingDataKey withChannelId:@"DEBUG"];
     [TalkingData setExceptionReportEnabled:YES];
-#elif AdHoc
+#elif ADHOC
     
     [TalkingData sessionStarted:talkingDataKey withChannelId:@"AdHoc"];
     [TalkingData setExceptionReportEnabled:YES];
